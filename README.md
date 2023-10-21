@@ -5,7 +5,7 @@
 | ツール名             | 説明                                                                                                                     |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | gettop.sh            | [ミリシタDB](https://imas.gamedbs.jp/mlth)の各アイドルのページのURLを取得する。                                            |
-| getoneidol.sh        | [ミリシタDB](https://imas.gamedbs.jp/mlth)におけるアイドルURLのページに存在するカードPrefix名とPrefixURLの一覧を取得する。 |
+| getoneidol.sh        | [ミリシタDB](https://imas.gamedbs.jp/mlth)におけるアイドルURLのページに存在するカードPrefix名とカードPrefixURLの一覧を取得する。 |
 | getonecard.sh        | [ミリシタDB](https://imas.gamedbs.jp/mlth)におけるカードPrefix名とカードPrefixURLを取得する。                              |
 
 ## アプリ一覧
