@@ -11,7 +11,7 @@ print_usage_and_exit () {
 	Options :
 
 	ミリシタDB（https://imas.gamedbs.jp/mlth）における
-	アイドルURLのページに存在するカードPrefix名とPrefixURLの一覧を取得する。
+	アイドルURLのページに存在するカードPrefix名とカードPrefixURLの一覧を取得する。
 	USAGE
   exit 1
 }

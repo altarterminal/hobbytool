@@ -127,7 +127,7 @@ else
 fi
 
 # アイドルがひとり以上指定されていることを判定
-if [ -n "$ifilter" ]; then
+if printf "%s\n" "$ifilter" | grep -q '^grep $'; then
   echo "${0##*/}: one or more idols must be specified" 1>&2
   exit 12
 fi
