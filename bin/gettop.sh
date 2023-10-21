@@ -67,11 +67,9 @@ $wcmd "$tpage" 2>/dev/null                                           |
 
 # アイドルの名前とページの情報を記載した部分を抽出
 awk '
-  $0 ~ /アイドル一覧/ { isOutput = 1 }
-  $0 ~ /<ul/ && isOutput == 1 {
-    getline
-    while ($0 !~ /ul>/) { print $0; getline }
-    isOutput = 0
+  $0 ~ /アイドル一覧/ {
+    getline; while ($0 !~ /<ul .*>/) { getline;          }
+    getline; while ($0 !~ /<\/ul>/ ) { print $0; getline }
   }
 '                                                                    |
 
