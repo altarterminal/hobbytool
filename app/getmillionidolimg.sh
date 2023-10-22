@@ -174,7 +174,7 @@ done                                                                 |
 # カード画像をダウンロード
 ######################################################################
 
-while read iname cname curl
+while read -r iname cname curl
 do
   # 出力先のディレクトリをアイドル名で作成
   mkdir -p "$iname"
